@@ -2,7 +2,7 @@ import { Profile } from "@/types";
 
 export const profileData: Profile = {
   name: "Anfas Arshad",
-  role: "Software Engineer & Full-Stack Developer",
+  role: "Software Engineer (BSc Hons Computing)",
   tagline: "Passionate about architecting scalable web platforms, resilient backend services, and clean user interfaces. Driven by modern software engineering practices, algorithmic problem-solving, and continuous learning.",
   bioParagraphs: [
     "I am a Software Engineer and Full-Stack Developer with hands-on industrial experience engineering responsive web applications, secure REST APIs, and microservices architectures. Grounded in strong computer science fundamentals from NIBM and Coventry University, I enjoy tackling complex architectural problems and transforming ideas into robust, production-ready digital products.",
