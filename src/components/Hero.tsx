@@ -21,6 +21,8 @@ export const Hero: React.FC = () => {
         return <Icons.github className="w-5 h-5" />;
       case "linkedin":
         return <Icons.linkedin className="w-5 h-5" />;
+      case "whatsapp":
+        return <Icons.whatsapp className="w-5 h-5" />;
       case "twitter":
         return <Icons.twitter className="w-5 h-5" />;
       case "mail":
@@ -160,21 +162,21 @@ export const Hero: React.FC = () => {
 
               {/* Inner card frame */}
               <div className="relative overflow-hidden rounded-3xl border border-zinc-200 dark:border-zinc-800/80 bg-zinc-950 p-2 shadow-2xl transition-transform duration-300">
-                <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-2xl overflow-hidden bg-zinc-900">
+                <div className="relative w-[270px] sm:w-[320px] md:w-[360px] aspect-[3/4] rounded-2xl overflow-hidden bg-zinc-900">
                   <Image
                     src={profileData.image}
                     alt={profileData.name}
                     fill
                     priority
-                    sizes="(max-width: 640px) 256px, (max-width: 768px) 320px, 384px"
-                    className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 640px) 270px, (max-width: 768px) 320px, 360px"
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   />
                   {/* Subtle inner shadow overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/40 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent pointer-events-none" />
                 </div>
 
                 {/* Floating pill badge on photo */}
-                <div className="absolute bottom-5 left-5 right-5 p-3 rounded-xl bg-zinc-950/85 backdrop-blur-md border border-zinc-800 flex items-center justify-between text-xs font-mono shadow-lg">
+                <div className="absolute bottom-4 left-4 right-4 sm:bottom-5 sm:left-5 sm:right-5 p-3 rounded-xl bg-zinc-950/85 backdrop-blur-md border border-zinc-800 flex items-center justify-between text-xs font-mono shadow-lg">
                   <div className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                     <span className="text-zinc-200 font-semibold">{profileData.name}</span>

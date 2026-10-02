@@ -28,6 +28,7 @@ export interface Profile {
   location: string;
   email: string;
   phone: string;
+  whatsappUrl?: string;
   image: string;
   availability: string;
   statusText: string;

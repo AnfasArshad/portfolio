@@ -16,6 +16,8 @@ export const Footer: React.FC = () => {
         return <Icons.github className="w-4 h-4" />;
       case "linkedin":
         return <Icons.linkedin className="w-4 h-4" />;
+      case "whatsapp":
+        return <Icons.whatsapp className="w-4 h-4" />;
       case "twitter":
         return <Icons.twitter className="w-4 h-4" />;
       case "mail":
