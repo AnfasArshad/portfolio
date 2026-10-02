@@ -11,7 +11,8 @@ export const profileData: Profile = {
   location: "Mabola, Wattala, Sri Lanka",
   email: "anfasarshad@gmail.com",
   phone: "+94 788 999 196",
-  image: "/profile.jpg",
+  whatsappUrl: "https://wa.me/94788999196?text=Hi%20Anfas%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!",
+  image: "/profile.png",
   availability: "Available for opportunities • Sri Lanka",
   statusText: "Available for opportunities • Sri Lanka",
   openToRelocation: true,
@@ -19,15 +20,21 @@ export const profileData: Profile = {
   socialLinks: [
     {
       name: "GitHub",
-      url: "https://github.com/anfasarshad",
+      url: "https://github.com/AnfasArshad",
       icon: "github",
       handle: "@anfasarshad"
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/anfas-arshad",
+      url: "https://www.linkedin.com/in/anfas-arshad-887108221",
       icon: "linkedin",
       handle: "in/anfas-arshad"
+    },
+    {
+      name: "WhatsApp",
+      url: "https://wa.me/94788999196?text=Hi%20Anfas%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!",
+      icon: "whatsapp",
+      handle: "+94 788 999 196"
     },
     {
       name: "Email",

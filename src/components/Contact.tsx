@@ -7,7 +7,6 @@ import {
   Copy, 
   Check, 
   MapPin, 
-  Phone,
   Mail,
   Clock, 
   Sparkles, 
@@ -176,18 +175,27 @@ export const Contact: React.FC = () => {
                 </div>
               )}
 
-              {/* Phone Card */}
+              {/* Phone / WhatsApp Card */}
               <div className="p-4 rounded-xl bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200 dark:border-zinc-700/70 hover:border-emerald-500/40 transition-colors">
-                <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-emerald-600 dark:text-emerald-400 font-semibold mb-1.5">
-                  <Phone className="w-3.5 h-3.5" />
-                  <span>Phone / WhatsApp</span>
+                <div className="flex items-center justify-between mb-1.5">
+                  <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-emerald-600 dark:text-emerald-400 font-semibold">
+                    <Icons.whatsapp className="w-3.5 h-3.5 fill-current" />
+                    <span>WhatsApp / Phone</span>
+                  </div>
+                  <span className="text-[11px] font-mono text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 dark:bg-emerald-500/20 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                    Instant Chat
+                  </span>
                 </div>
                 <div className="flex items-center justify-between gap-2">
                   <a
-                    href={`tel:${profileData.phone.replace(/\s+/g, '')}`}
-                    className="text-sm sm:text-base font-medium text-zinc-900 dark:text-zinc-100 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors truncate min-h-[44px] inline-flex items-center"
+                    href={profileData.whatsappUrl || "https://wa.me/94788999196?text=Hi%20Anfas%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm sm:text-base font-medium text-zinc-900 dark:text-zinc-100 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors truncate min-h-[44px] inline-flex items-center gap-1.5 group/wa"
+                    title="Click to chat directly on WhatsApp"
                   >
-                    {profileData.phone}
+                    <span>{profileData.phone}</span>
+                    <ArrowUpRight className="w-3.5 h-3.5 text-zinc-400 group-hover/wa:text-emerald-500 group-hover/wa:translate-x-0.5 group-hover/wa:-translate-y-0.5 transition-all" />
                   </a>
                   <button
                     onClick={handleCopyPhone}
