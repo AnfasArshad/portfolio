@@ -72,13 +72,8 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-8 pt-6 border-t border-zinc-200/50 dark:border-zinc-800/50 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400 dark:text-zinc-500 gap-2">
-          <div>
-            © {currentYear} {profileData.name}. All rights reserved.
-          </div>
-          <div className="flex items-center gap-1">
-            <span>Built with Next.js, TypeScript & Tailwind CSS</span>
-          </div>
+        <div className="mt-8 pt-6 border-t border-zinc-200/50 dark:border-zinc-800/50 flex items-center justify-center text-center text-xs text-zinc-400 dark:text-zinc-500">
+          <p>© {currentYear} {profileData.name}. All rights reserved.</p>
         </div>
       </div>
     </footer>
