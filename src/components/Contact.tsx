@@ -188,7 +188,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between gap-2">
                   <a
-                    href={profileData.whatsappUrl || "https://wa.me/94788999196?text=Hi%20Anfas%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!"}
+                    href={profileData.whatsappUrl || "https://wa.me/94788999196?text=Hi%20Anfas%2C%20I%20came%20across%20your%20portfolio!"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm sm:text-base font-medium text-zinc-900 dark:text-zinc-100 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors truncate min-h-[44px] inline-flex items-center gap-1.5 group/wa"

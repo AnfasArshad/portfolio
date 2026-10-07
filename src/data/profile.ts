@@ -11,7 +11,7 @@ export const profileData: Profile = {
   location: "Mabola, Wattala, Sri Lanka",
   email: "anfasarshad@gmail.com",
   phone: "+94 788 999 196",
-  whatsappUrl: "https://wa.me/94788999196?text=Hi%20Anfas%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!",
+  whatsappUrl: "https://wa.me/94788999196?text=Hi%20Anfas%2C%20I%20came%20across%20your%20portfolio!",
   image: "/profile.png",
   availability: "Available for opportunities • Sri Lanka",
   statusText: "Available for opportunities • Sri Lanka",
@@ -32,7 +32,7 @@ export const profileData: Profile = {
     },
     {
       name: "WhatsApp",
-      url: "https://wa.me/94788999196?text=Hi%20Anfas%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!",
+      url: "https://wa.me/94788999196?text=Hi%20Anfas%2C%20I%20came%20across%20your%20portfolio!",
       icon: "whatsapp",
       handle: "+94 788 999 196"
     },
