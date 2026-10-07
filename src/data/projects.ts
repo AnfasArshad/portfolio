@@ -9,8 +9,8 @@ export const projectsData: Project[] = [
     category: "Full Stack",
     technologies: ["Java", "Spring Boot", "React", "MySQL", "REST APIs", "Tailwind CSS", "Microservices"],
     featured: true,
-    liveUrl: "https://github.com/anfasarshad/train-tickets-booking-system",
-    githubUrl: "https://github.com/anfasarshad/train-tickets-booking-system",
+    liveUrl: "https://github.com/AnfasArshad/Ticketbookingsystem",
+    githubUrl: "https://github.com/AnfasArshad/Ticketbookingsystem",
     metrics: "Microservices Architecture & ACID Booking Guarantees",
     highlights: [
       "Decoupled microservice architecture separating booking, inventory, and passenger records",
@@ -26,8 +26,8 @@ export const projectsData: Project[] = [
     category: "Full Stack",
     technologies: ["Java", "Spring Boot", "Spring Security", "JWT", "MySQL", "Hibernate / JPA", "Swagger"],
     featured: true,
-    liveUrl: "https://github.com/anfasarshad/blog-app-rest-api",
-    githubUrl: "https://github.com/anfasarshad/blog-app-rest-api",
+    liveUrl: "https://github.com/AnfasArshad/blog-application",
+    githubUrl: "https://github.com/AnfasArshad/blog-application",
     metrics: "Stateless JWT RBAC & Interactive Swagger 3 Docs",
     highlights: [
       "Stateless security authentication powered by JSON Web Tokens (JWT) & Spring Security",
